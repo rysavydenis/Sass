@@ -1,0 +1,71 @@
+header, footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: justify;
+  background: #021f29;
+  color: #d6c3c3;
+  padding: 20px;
+  display: flex;
+  -webkit-box-pack: align;
+      -ms-flex-pack: align;
+          justify-content: align;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #1a1212;
+}
+
+.styleBtn {
+  background: #2ea0a8;
+  border: 2px solid #dedee9;
+  border-radius: 5%;
+  margin: 20px;
+  float: right;
+  padding: 5px;
+}
+
+.styleBtn:hover {
+  background: #1a1212;
+  color: white;
+}
+
+.styleBtn::after {
+  content: '  CSS AFTER';
+}
+
+footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: justify;
+  background: #1a1212;
+}
+/*# sourceMappingURL=style.css.map */

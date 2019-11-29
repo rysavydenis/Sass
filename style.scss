@@ -1,0 +1,36 @@
+@import "variables";
+@import "header";
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+body {
+    background: $backgroundColor;
+}
+
+.styleBtn  {
+    background: $buttonColor;
+    border: 2px solid $buttonBorder;
+    border-radius:5%;
+    margin:20px;
+    float:right;
+    padding:5px;
+    &:hover {
+        background: $backgroundColor;
+        color:white;
+    }
+    &::after {
+        content:'  CSS AFTER'
+    }
+}
+
+footer {
+    @include centerFlex(column);
+    @extend header;
+    background:$backgroundColor;
+
+
+}
